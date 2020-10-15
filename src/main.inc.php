@@ -1,33 +1,29 @@
 <main>
 <div class="section" role="table" aria-label="table-info">
 <table>
-<caption>Le top 10 des langages</caption>
+  <caption>Le top 10 des langages</caption>
 <thead>
-    <tr>
-        <th>Classement</th>
-        <th>Langage</th>
-        <th>Type</th>
-    </tr>
-        </thead>
-        <tbody>
-        <?php
-include_once('./src/tb.inc.php');
-for($i = 0; $i < 4; $i++){
-echo"<tr>";
-for($j = 0; $j < 3; $j++){
-echo "<td>".$tableau[$i][$j]."</td>";
- }
- echo"</tr>";
+<tr>
+   <th>Classement</th>
+   <th>Langage</th>
+   <th>Type</th>
+</tr>
+</thead>
+<tbody>
+   <?php
+ include_once('./src/tb.inc.php');
+ for($a = 0; $a < 4; $a++){
+     echo"<tr>";for($z = 0; $z < 3; $z++)echo "<td>".$tab[$a][$z]."</td>";echo"</tr>";
  };
-?>
+  ?>
 </tbody>
 <tfoot>
-<tr>
-<th>Classement</th>
-<th>Langage</th>
-<th>Type</th>
-</tr>
-</tfoot>
-</table>
-</div>
+    <tr>
+     <th>Classement</th>
+     <th>Langage</th>
+     <th>Type</th>
+    </tr>
+   </tfoot>
+  </table>
+ </div>
 </main>

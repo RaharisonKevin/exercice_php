@@ -1,5 +1,5 @@
 <?php
-$tableau = array(
+$tb = array(
 0=>array(1,'Python','Web &amp; application'),
 1=>array(2,'C++','Application'),
 2=>array(3,'Node','Web &amp; application'),
