@@ -1,3 +1,3 @@
 <footer>
-<p>&copy; - Giusmili 2018 <?php print date('Y')?></p>
+<p>&copy; - Giusmili <?php print date('Y')?></p>
         </footer>

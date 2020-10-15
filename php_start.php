@@ -1,5 +1,4 @@
 <?php
-    //ici le code
     include_once("./src/env.include.php");
 ?>
 <?php
@@ -10,9 +9,11 @@
         <h1><?php print title.' version php '. $version?></h1>
     </header>
     <?php
-    //ici le code
     include_once("./src/main.inc.php");
 ?>
 </body>
+<?php 
+include_once('./src/footer.inc.php');
+?>
 </html>
     
