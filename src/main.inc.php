@@ -12,8 +12,7 @@
 <tbody>
    <?php
  include_once('./src/tb.inc.php');
- for($a = 0; $a < 4; $a++){
-     echo"<tr>";for($z = 0; $z < 3; $z++)echo "<td>".$tab[$a][$z]."</td>";echo"</tr>";
+ for($a = 0; $a < 4; $a++){ echo"<tr>";for($z = 0; $z < 3; $z++)echo "<td>".$tab[$a][$z]."</td>";echo"</tr>";
  };
   ?>
 </tbody>
